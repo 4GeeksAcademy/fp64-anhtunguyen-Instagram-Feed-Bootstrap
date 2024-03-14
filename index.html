@@ -70,68 +70,119 @@
         </div>
       </div>
     </nav>
-    <nav aria-label="Page navigation example">
-      <ul class="pagination justify-content-center mt-2">
-        <li class="page-item"><a href="index.html" type="button" class="btn btn-light"><i
-              class="fa-solid fa-square"></i></a></li>
-        <li class="page-item"><a href="index2.html" type="button" class="btn btn-light"><i
-              class="fa-solid fa-table-cells"></i></a></li>
-      </ul>
-    </nav>
+    <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+        <i class="fa-solid fa-square"></i>
+      </button>
+        
+      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+        <i class="fa-solid fa-table-cells"></i>
+      </button>
+       
+    </div>
+    
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+        <div class="container d-flex justify-content-center mt-4">
+          <div class="card">
+            <div class="d-flex justify-content-between m-2">
+              <span class="fs-3">Photo 1</span>
+              <span>08/26</span>
+            </div>
+            <img src="https://picsum.photos/id/16/367/267" class="img-fluid" alt="...">
+            <div class="d-inline m-2">
+              <p><strong>204 likes</strong></p>
+              <span>This is a first example</span>
+            </div>
+          </div>
+        </div>
+        <div class="container d-flex justify-content-center mt-4">
+          <div class="card">
+            <div class="d-flex justify-content-between m-2">
+              <span class="fs-3">Photo 2</span>
+              <span>08/27</span>
+            </div>
+            <img src="https://picsum.photos/id/17/367/267" class="img-fluid" alt="...">
+            <div class="d-inline m-2">
+              <p><strong>230 likes</strong></p>
+              <span>This is a second example</span>
+            </div>
+          </div>
+        </div>
 
-    <div class="container d-flex justify-content-center mt-4">
-      <div class="card">
-        <div class="d-flex justify-content-between m-2">
-          <span class="fs-3">Photo 1</span>
-          <span>08/26</span>
+        <div class="container d-flex justify-content-center mt-4">
+          <div class="card">
+            <div class="d-flex justify-content-between m-2">
+              <span class="fs-3">Photo 3</span>
+              <span>08/28</span>
+            </div>
+            <img src="https://picsum.photos/id/29/367/267" class="img-fluid" alt="...">
+            <div class="d-inline m-2">
+              <p><strong>190 likes</strong></p>
+              <span>This is a third example</span>
+            </div>
+          </div>
         </div>
-        <img src="https://picsum.photos/id/16/367/267" class="img-fluid" alt="...">
-        <div class="d-inline m-2">
-          <p><strong>204 likes</strong></p>
-          <span>This is a first example</span>
-        </div>
-      </div>
-    </div>
-    <div class="container d-flex justify-content-center mt-4">
-      <div class="card">
-        <div class="d-flex justify-content-between m-2">
-          <span class="fs-3">Photo 2</span>
-          <span>08/27</span>
-        </div>
-        <img src="https://picsum.photos/id/17/367/267" class="img-fluid" alt="...">
-        <div class="d-inline m-2">
-          <p><strong>230 likes</strong></p>
-          <span>This is a second example</span>
-        </div>
-      </div>
-    </div>
-    <div class="container d-flex justify-content-center mt-4">
-      <div class="card">
-        <div class="d-flex justify-content-between m-2">
-          <span class="fs-3">Photo 3</span>
-          <span>08/28</span>
-        </div>
-        <img src="https://picsum.photos/id/29/367/267" class="img-fluid" alt="...">
-        <div class="d-inline m-2">
-          <p><strong>190 likes</strong></p>
-          <span>This is a third example</span>
+        <div class="container d-flex justify-content-center mt-4">
+          <div class="card">
+            <div class="d-flex justify-content-between m-2">
+              <span class="fs-3">Photo 4</span>
+              <span>08/30</span>
+            </div>
+            <img src="https://picsum.photos/id/42/367/267" class="img-fluid" alt="...">
+            <div class="d-inline m-2">
+              <p><strong>250 likes</strong></p>
+              <span>This is a fourth example</span>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container d-flex justify-content-center mt-4">
-      <div class="card">
-        <div class="d-flex justify-content-between m-2">
-          <span class="fs-3">Photo 4</span>
-          <span>08/30</span>
-        </div>
-        <img src="https://picsum.photos/id/42/367/267" class="img-fluid" alt="...">
-        <div class="d-inline m-2">
-          <p><strong>250 likes</strong></p>
-          <span>This is a fourth example</span>
-        </div>
-      </div>
-    </div>
 
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+        <div class="d-inline">
+          <div class="row1 mt-4">
+            <div class="card-group">
+              <div class="card m-1">
+                <img src="https://picsum.photos/id/16/367/267" class="card-img-top" alt="...">
+              </div>
+              <div class="card m-1">
+                <img src="https://picsum.photos/id/17/367/267" class="card-img-top" alt="...">
+
+              </div>
+              <div class="card m-1">
+                <img src="https://picsum.photos/id/29/367/267" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="card-group">
+              <div class="card m-1">
+                <img src="https://picsum.photos/id/42/367/267" class="card-img-top" alt="...">
+              </div>
+              <div class="card m-1">
+                <img src="https://picsum.photos/id/43/367/267" class="card-img-top" alt="...">
+              </div>
+              <div class="card m-1">
+                <img src="https://picsum.photos/id/44/367/267" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="row3">
+              <div class="card-group">
+                <div class="card m-1">
+                  <img src="https://picsum.photos/id/45/367/267" class="card-img-top" alt="...">
+                </div>
+                <div class="card m-1">
+                  <img src="https://picsum.photos/id/46/367/267" class="card-img-top" alt="...">
+                </div>
+                <div class="card m-1">
+                  <img src="https://picsum.photos/id/47/367/267" class="card-img-top" alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
